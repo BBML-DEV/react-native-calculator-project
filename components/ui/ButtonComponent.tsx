@@ -1,8 +1,8 @@
 import { TouchableHighlight } from "react-native"
 
 type props = {
-    buttonTextValue: string,
-    functionCalculate: () => void
+    buttonTextValue?: string,
+    functionCalculate?: () => void
 }
 
 export default function ButtonComponent ({buttonTextValue, functionCalculate}: props){
